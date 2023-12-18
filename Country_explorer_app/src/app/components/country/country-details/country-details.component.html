@@ -1,0 +1,19 @@
+
+<mat-card class="country-detail-card">
+  <img [src]="country?.flags?.png" class="country-flag" alt="Country Flag">
+  <mat-card-title>{{ country?.name }}</mat-card-title>
+  <mat-card-subtitle>{{ country?.region }}</mat-card-subtitle>
+
+  <mat-card-content>
+    <p>Currency: {{ country?.currency }}</p>
+    <p>Language: {{ country?.language }}</p>
+    <p>Region: {{ country?.region }}</p>
+    <a mat-button href="{{ country?.maps?.googleMaps }}" target="_blank">Open in Google Maps</a>
+  </mat-card-content>
+  <mat-card-actions>
+    <a routerLink="/countries">
+      <mat-icon>navigate_before</mat-icon>
+      Back to Countries
+    </a>
+  </mat-card-actions>
+</mat-card>

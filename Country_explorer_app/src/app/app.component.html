@@ -1,0 +1,16 @@
+
+<div class="container">
+  <mat-toolbar color="primary">
+    <span>Countries Explorer</span>
+  </mat-toolbar>
+
+  <nav mat-tab-nav-bar>
+    <a mat-tab-link routerLink="/" routerLinkActive #rla="routerLinkActive">Home</a>
+    <a mat-tab-link routerLink="/countries" routerLinkActive #rla2="routerLinkActive">Countries</a>
+  </nav>
+
+  <router-outlet></router-outlet>
+</div>
+<footer>
+  <p>&copy; 2023 Country Explorer</p>
+</footer>

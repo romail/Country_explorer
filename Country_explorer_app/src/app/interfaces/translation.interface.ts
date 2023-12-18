@@ -1,0 +1,25 @@
+export interface Translation {
+  arb: string // Arabic
+  bre: string // Breton
+  ces: string // Czech
+  cym: string // Welsh
+  deu: string // German
+  est: string // Estonian
+  fin: string // Finnish
+  fra: string // French
+  hrv: string // Croatian
+  hun: string // Hungarian
+  ita: string // Italian
+  jpn: string // Japanese
+  kor: string // Korean
+  nld: string // Dutch
+  per: string // Persian
+  pol: string // Polish
+  rus: string // Russian
+  slk: string // Slovak
+  spa: string // Spanish
+  swe: string // Swedish
+  tur: string // Turkish
+  urd: string // Urdu
+  zho: string // Chinese
+}

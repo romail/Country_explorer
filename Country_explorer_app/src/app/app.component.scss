@@ -1,0 +1,79 @@
+﻿:host {
+    max-width: 1280px;
+    padding: 2rem;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background: #F2F2F2;
+}
+
+tr:nth-child(odd) {
+    background: #FFF;
+}
+
+th, td {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+table {
+    margin: 0 auto;
+}
+
+header {
+  background-color: #343a40;
+  color: #ffffff;
+  padding: 10px;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+
+div {
+  text-align: center;
+  margin: 20px;
+}
+
+h2 {
+  color: #007bff;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+mat-toolbar {
+  margin-bottom: 20px;
+  background-color: #ffe353;
+}
+
+nav {
+  margin-bottom: 20px;
+
+  a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+}
+
+nav a:hover {
+  color: #ffcc00;
+}
+
